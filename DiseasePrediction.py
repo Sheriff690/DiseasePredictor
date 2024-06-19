@@ -349,7 +349,7 @@ lr = Button(root, text="Prediction 3", command=NaiveBayes, bg="Blue", fg="white"
 lr.config(font=("Times",15,"bold italic"))
 lr.grid(row=19, column=3,padx=10)
 
-
+# The Text fields for Displaying the predictions
 t1 = Text(root, height=1, width=40, bg="red", fg="yellow")
 t1.config(font=("Times",15,"bold italic"))
 t1.grid(row=15, column=1, padx=10)
